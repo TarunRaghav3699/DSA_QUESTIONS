@@ -1,4 +1,4 @@
-1. [Matrix Addition](AddingTwoMatrices.java/README.md)
+1. [Matrix Addition](AddingTwoMatrices.java)
 2. [Linked List](Main.java/README.md)
 3. [Linked List With All Insertion Method](Main1.java/README.md)
 4. [Matrix Multiplication](MatrixMultiplicationExample.java/README.md)
