@@ -73,7 +73,7 @@ class LinkedList {
     }
 }
 
-public class Main1 {
+public class LinkedListAIIO {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
