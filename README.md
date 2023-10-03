@@ -7,7 +7,7 @@
 7. [Linked List Deletion at Middle](LinkedListDM.java)
 8. [Linked List Deletion at End](LinkedListDE.java)
 9. [Matrix Multiplication](MatrixMultiplicationExample.java)
-10. [Queue](Queue.java)
+10. [Queue With Array](Queue.java)
 11. [Queue With Linked List](QueueLinkedList.java)
 12. [Stack With Array](StackWithArray.java)
 13. [Stack With Linked List](StackWithLinkedList.java)
