@@ -1,10 +1,10 @@
-public class StackWithArray {
+public class StackUsingArray {
     private int maxSize; // Maximum size of the stack
     private int top;     // Index of the top element
     private int[] stackArray; // Array to store stack elements
 
     // Constructor to initialize the stack
-    public StackWithArray(int size) {
+    public StackUsingArray(int size) {
         maxSize = size;
         stackArray = new int[maxSize];
         top = -1; // Initialize top to -1 as the stack is empty
@@ -42,7 +42,7 @@ public class StackWithArray {
     }
 
     public static void StackWithArray(String[] args) {
-        StackWithArray stack = new StackWithArray(5);
+        StackUsingArray stack = new StackUsingArray(5);
 
         stack.push(1);
         stack.push(2);
