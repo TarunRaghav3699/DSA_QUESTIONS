@@ -1,8 +1,8 @@
 // Queue implementation in Java
 
 public class Queue {
-    // int SIZE = 5;
-    int items[] = new int[5];
+    int SIZE = 5;
+    int items[] = new int[SIZE];
     int front, rear;
   
     Queue() {
@@ -11,7 +11,7 @@ public class Queue {
     }
   
     boolean isFull() {
-      if (front == 0 && rear == 5 - 1) {
+      if (front == 0 && rear == SIZE - 1) {
         return true;
       }
       return false;
@@ -76,12 +76,12 @@ public class Queue {
       // deQueue is not possible on empty queue
       q.deQueue();
   
-      // enQueue 5 elements
+      // enQueue SIZE elements
       q.enQueue(1);
       q.enQueue(2);
       q.enQueue(3);
       q.enQueue(4);
-      q.enQueue(5);
+      q.enQueue(SIZE);
   
       // 6th element can't be added to because the queue is full
       q.enQueue(6);
@@ -104,16 +104,16 @@ public class Queue {
 // Inserted 2
 // Inserted 3
 // Inserted 4
-// Inserted 5
+// Inserted SIZE
 // Queue is full
 
 // Front index-> 0
 // Items -> 
-// 1  2  3  4  5  
+// 1  2  3  4  SIZE  
 // Rear index-> 4
 // Deleted -> 1
 
 // Front index-> 1
 // Items -> 
-// 2  3  4  5  
+// 2  3  4  SIZE  
 // Rear index-> 4
