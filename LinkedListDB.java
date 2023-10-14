@@ -59,3 +59,9 @@ public class LinkedListDB {
         linkedList.display();
     }
 }
+
+// output:-
+
+// 3 -> 2 -> 1 -> null
+// After deleting the first node:
+// 2 -> 1 -> null
