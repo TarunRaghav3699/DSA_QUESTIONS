@@ -62,3 +62,15 @@ class StackUsingLinkedList {
         System.out.println("Is stack empty? " + stack.isEmpty());
     }
 }
+
+// output:- 
+
+// Pushed 1 onto the stack
+// Pushed 2 onto the stack
+// Pushed 3 onto the stack
+// Popped: 3
+// Popped: 2
+// Pushed 4 onto the stack
+// Pushed 5 onto the stack
+// Stack is empty: false
+// Stack is full: false

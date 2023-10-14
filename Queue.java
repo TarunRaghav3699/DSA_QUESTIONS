@@ -96,3 +96,24 @@ public class Queue {
   
     }
   }
+
+// output:-
+
+// Queue is empty
+// Inserted 1
+// Inserted 2
+// Inserted 3
+// Inserted 4
+// Inserted 5
+// Queue is full
+
+// Front index-> 0
+// Items -> 
+// 1  2  3  4  5  
+// Rear index-> 4
+// Deleted -> 1
+
+// Front index-> 1
+// Items -> 
+// 2  3  4  5  
+// Rear index-> 4
