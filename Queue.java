@@ -81,7 +81,7 @@ public class Queue {
       q.enQueue(2);
       q.enQueue(3);
       q.enQueue(4);
-      q.enQueue(SIZE);
+      q.enQueue(5);
   
       // 6th element can't be added to because the queue is full
       q.enQueue(6);
@@ -104,16 +104,16 @@ public class Queue {
 // Inserted 2
 // Inserted 3
 // Inserted 4
-// Inserted SIZE
+// Inserted 5
 // Queue is full
 
 // Front index-> 0
 // Items -> 
-// 1  2  3  4  SIZE  
+// 1  2  3  4  5 
 // Rear index-> 4
 // Deleted -> 1
 
 // Front index-> 1
 // Items -> 
-// 2  3  4  SIZE  
+// 2  3  4  5 
 // Rear index-> 4
