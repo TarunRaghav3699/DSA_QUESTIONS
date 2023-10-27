@@ -42,5 +42,21 @@ public class Main {
         root.left = new Node(2);
         root.right = new Node(3);
         root.left.left = new Node(4);
+
+        // Printing the tree structure
+        printTree(root);
+    }
+
+    public static void printTree(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        // Print the data of the current node
+        System.out.print(node.data + " ");
+
+        // Recursive call for left and right subtrees
+        printTree(node.left);
+        printTree(node.right);
     }
 }
