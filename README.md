@@ -13,3 +13,4 @@
 13. [Stack With Linked List](StackWithLinkedList.java)
 14. [Circular Queue](CircularQueue.java)
 15. [Binary Tree](BinaryTree.java)
+16. [Binary Search Tree](BST.java)
