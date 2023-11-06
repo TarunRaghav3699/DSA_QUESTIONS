@@ -14,3 +14,4 @@
 14. [Circular Queue](CircularQueue.java)
 15. [Binary Tree](BinaryTree.java)
 16. [Binary Search Tree](BST.java)
+17. [Self-Balancing Tree (AVL)](AVL.java)
