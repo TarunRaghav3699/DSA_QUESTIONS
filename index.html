@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .container {
+            display: flex;
+            /*align-items: ;*/
+
+            margin: auto;
+            margin-top: 3cm;
+            padding: auto;
+            height: 11.5cm;
+            width: 5cm;
+            background-image: linear-gradient(to bottom, rgb(101, 101, 219), rgb(219, 76, 160), rgb(255, 196, 0));
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .formet {
+            padding: 4px;
+            text-align: center;
+        }
+        .button {
+            padding: 40px;
+            display: flex;
+            align-items: inline;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+
+            <form class="formet">
+                <h1>Login</h1>
+                <input type="text" class="email" placeholder="Enter your Email"><br><br>
+                <input type="password" class="password" placeholder="Enter your password"><br><br>
+                <p>If you want to watch the time then click on click button</p>
+                <div class="button">
+                    <input type="submit" placeholder="submit">
+                    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()" >Click</button>
+                </div>
+                <p id="demo"></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
