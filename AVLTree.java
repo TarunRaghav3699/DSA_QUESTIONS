@@ -105,3 +105,6 @@ class AVLTree {
         tree.preOrder(tree.root);
     }
 }
+
+// output will be:-
+// 20 10 30

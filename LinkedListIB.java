@@ -41,3 +41,5 @@ public class LinkedListIB {
     }
 }
 
+// output will be:-
+// 1 -> 2 -> 3 -> null

@@ -70,3 +70,16 @@ public class CircularQueue {
         System.out.println("Front element is: " + cq.peek());
     }
 }
+
+
+// output will be:-
+
+// 1 enqueued to the queue.
+// 2 enqueued to the queue.
+// 3 enqueued to the queue.
+// 4 enqueued to the queue.
+// 5 enqueued to the queue.
+// 1 dequeued from the queue.
+// 6 enqueued to the queue.
+// 2 dequeued from the queue.
+// Front element is: 3

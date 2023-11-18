@@ -73,3 +73,9 @@ public class LinkedListDE {
     }
 }
 
+
+// output will be:-
+// Original linked list:
+// 1 -> 2 -> 3 -> 4 -> null
+// After deleting the last node:
+// 1 -> 2 -> 3 -> null

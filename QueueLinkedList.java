@@ -62,3 +62,10 @@ public class QueueLinkedList {
         System.out.println("Queue is empty: " + queue.isEmpty());
     }
 }
+
+
+// output will be:-
+// 1 2 3
+// Dequeued: 1
+// Dequeued: 2
+// Dequeued: 3

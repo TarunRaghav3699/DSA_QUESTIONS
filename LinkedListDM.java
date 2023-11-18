@@ -81,3 +81,10 @@ public class LinkedListDM {
         linkedList.display();
     }
 }
+
+
+// output will be:-
+// Original linked list:
+// 1 -> 2 -> 3 -> 4 -> null
+// After deleting node at position 2:
+// 1 -> 3 -> 4 -> null

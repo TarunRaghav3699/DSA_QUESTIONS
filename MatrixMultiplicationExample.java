@@ -62,3 +62,9 @@ public class MatrixMultiplicationExample {
     }
   }
 }
+
+//output will be like:-
+// Matrix multiplication is :
+// 30 24 18 
+// 84 69 54
+// 138 114 90

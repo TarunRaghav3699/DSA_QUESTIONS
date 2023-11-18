@@ -90,3 +90,7 @@ public class LinkedListAIIO {
         list.display();
     }
 }
+
+
+// output will be:-
+// 1 2 3 

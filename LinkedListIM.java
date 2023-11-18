@@ -53,3 +53,8 @@ public class LinkedListIM {
         linkedList.display();
     }
 }
+
+
+// output will be:-
+// 3 -> 2 -> 4 -> null
+

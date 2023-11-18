@@ -41,3 +41,13 @@ public class BinaryTree {
         printTree(node.right);
     }
 }
+
+
+// output will be:-
+// 1 Left: 2 
+// Right: 3
+
+// 2 Left: 4
+
+// 4
+// 3

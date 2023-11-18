@@ -48,3 +48,7 @@ public class LinkedListIE {
     }
 }
 
+
+
+// output will be:-
+// 1 -> 2 -> 3 -> null

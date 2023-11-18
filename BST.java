@@ -129,3 +129,10 @@ public class BST {
         tree.inorderTraversal();
     }
 }
+
+// output will be:-
+// Inorder Traversal:
+// 20 30 40 50 60 70 80 
+// Node with data 40 found.
+// Inorder Traversal after deleting node with data 30:
+// 20 40 50 60 70 80
