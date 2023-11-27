@@ -16,8 +16,12 @@ public class LinkedListIB {
     // Method to insert a new node at the beginning of the linked list
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);
-        newNode.next = head;
-        head = newNode;
+        if (head == null) {
+            head = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+       }
     }
 
     // Method to print the linked list
