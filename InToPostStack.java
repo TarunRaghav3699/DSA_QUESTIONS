@@ -51,3 +51,7 @@ public class InToPostStack {
         System.out.println("Postfix Expression: " + postfixExpression);
     }
 }
+
+// output will be:-
+// Infix Expression: a+b*(c^d-e)^(f+g*h)-i
+// Postfix Expression: abcd^e-fgh*+^*+i-
